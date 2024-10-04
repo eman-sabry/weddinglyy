@@ -1,0 +1,240 @@
+.navbar
+{
+
+    background-color: #9B7D67;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-nav
+{
+    align-items: center;
+}
+.nav-link
+{
+    color: white;
+}
+.nav-link:hover
+{
+   border-bottom: solid white;
+   color: white;
+}
+.nav-link:focus
+{
+   border-bottom: solid white;
+   color: white;
+}
+.login
+{
+    width: 100px;
+    height: 40px;
+    margin-left: 15px;
+    border-color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.navleft
+{
+    margin-right: 20px;
+}
+#log
+{
+    width: 20px;
+    height: 20px;
+}
+.nav-item
+{
+  margin-left: 25px;
+  margin-right: 25px;
+  font-weight: bolder;
+}
+#logo
+{
+    width: 100px;
+    height: 100px;
+}
+#cart
+{
+    cursor:pointer;
+
+}
+#offlist
+{
+    list-style: none;
+}
+
+#link
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+#off{
+    margin-bottom: 20px;
+}
+#main
+{
+    height: 100vh;
+}
+.footer
+{
+    background-color: #9B7D67;
+}
+#footerimg
+{
+    width: 200px;
+    height: 200px;
+}
+#store
+{
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+   
+}
+.store ,.icon
+{
+margin-top: 30px;
+}
+.list-unstyled {
+    display: flex;
+}
+#sicon
+{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+
+@media (min-width:1200px) and (max-width:2000px){
+   
+    .small
+    {
+        display: none;
+    }
+    }
+
+@media (min-width:1000px) and (max-width:1200px){
+   
+    .small
+    {
+        display: none;
+    }
+    .nav-item
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+#sicon
+{
+  width: 25px;
+  height: 25px;
+  
+    
+}
+#store
+{
+    width: 100px;
+    height: 100px;
+}
+.footerimg
+{
+    width: 150px;
+    height: 150px;
+}
+.text-uppercase
+{
+    font-size: medium;
+}
+
+    }
+    @media (min-width:990px) and  (max-width:1000px){
+      #mnav
+      {
+        display: none;
+      }
+       .navbar
+       { 
+        height: 110px;
+        justify-content:space-between;
+       }
+      
+       .small
+       {
+        visibility: visible;
+       }
+       .list-unstyled
+       {
+ margin-right: 70px;
+       }
+       #sicon
+{
+  width: 25px;
+  height: 25px;
+  
+    
+}
+#store
+{
+    width: 100px;
+    height: 100px;
+}
+.footerimg
+{
+    width: 150px;
+    height: 150px;
+}
+.text-uppercase
+{
+    font-size: medium;
+}
+       
+      
+    }
+    @media (min-width:770px)and (max-width:990px)
+    {
+        #mnav
+        {
+          display: none;
+        }
+         .navbar
+         { 
+          height: 110px;
+          justify-content:space-between;
+         }
+        
+         .small
+         {
+          visibility: visible;
+         }
+         .list-unstyled
+         {
+   margin-left: 70px;
+         }
+    }
+    @media (max-width:770px)
+    {
+        #mnav
+        {
+          display: none;
+        }
+         .navbar
+         { 
+          height: 110px;
+          justify-content:space-between;
+         }
+        
+         .small
+         {
+          visibility: visible;
+         }
+         .list-unstyled
+         {
+   justify-content: center;
+         }
+    }
